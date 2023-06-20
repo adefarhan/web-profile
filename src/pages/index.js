@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profilePicture from "../../public/images/profile/developer-pic-1.png";
+import profilePicture from "../../public/images/profile/developer-space.png";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -20,7 +20,7 @@ export default function Home() {
               <Image
                 src={profilePicture}
                 alt="Foto Ade Farhan"
-                className="w-full h-auto"
+                className="w-full h-auto pr-6"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
@@ -36,7 +36,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
-                  href="/dummy.pdf"
+                  href="/Resume.pdf"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparrent hover:border-dark"
                   download={true}
