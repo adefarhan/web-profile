@@ -1,6 +1,6 @@
 Web Profile
 
-Youtube 1:24:35
+Youtube 1:30:50
 
 Kendala
 
@@ -12,3 +12,7 @@ web yg perlu di bookmark:
 2. https://www.erase.bg/ -- remove background foto
 3. https://www.canva.com/templates/?category=tACFajEYUAM&doctype=TABQqs5Kbyc -- canva istagrampost create template
 4. https://convertio.co/png-svg/ -- convert image to svg
+
+saran:
+
+1. profile picture pake WPAP Generator

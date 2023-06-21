@@ -4,7 +4,9 @@ import Logo from "@/components/Logo";
 import { useRouter } from "next/router";
 import {
   DribbbleIcon,
+  FacebookIcon,
   GithubIcon,
+  InstagramIcon,
   LinkedInIcon,
   PinterestIcon,
   TwitterIcon,
@@ -67,22 +69,22 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="https://twitter.com"
+          href="https://www.instagram.com/defarhn"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3"
         >
-          <PinterestIcon />
+          <InstagramIcon />
         </motion.a>
         <motion.a
-          href="https://twitter.com"
+          href="https://www.facebook.com/adhefarkhan"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 ml-3"
         >
-          <DribbbleIcon />
+          <FacebookIcon />
         </motion.a>
       </nav>
 

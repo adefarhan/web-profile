@@ -6,6 +6,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
+import RocketImage from "../../public/images/svgs/rocket.svg";
 
 export default function Home() {
   return (
@@ -20,19 +21,20 @@ export default function Home() {
               <Image
                 src={profilePicture}
                 alt="Foto Ade Farhan"
-                className="w-full h-auto pr-6"
+                className="w-full h-auto p-4 rounded-[100px]"
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design"
+                text="I am proud of what I do and the ability to turn dreams into reality."
                 className="!text-6xl text-left"
               />
               <p className="my-4 text-base font-medium">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                I am Fullstack Web Developer who started my career by joining
+                Hacktiv8 bootcamp. I’ve made several website and mobile app
+                projects. I have systematic and critical thinking, fast in
+                learning, have good leadership, ability to work independent or
+                as part of a team, highly organized, and efficient.
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
@@ -56,7 +58,14 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe></HireMe>
+        <HireMe />
+        <div className="absolute right-8 bottom-12 inline-block w-24">
+          <Image
+            src={RocketImage}
+            alt="rocket image"
+            className="w-full h-auto"
+          />
+        </div>
       </main>
     </>
   );
