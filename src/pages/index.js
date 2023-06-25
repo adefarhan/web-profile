@@ -22,6 +22,7 @@ export default function Home() {
                 src={profilePicture}
                 alt="Foto Ade Farhan"
                 className="w-full h-auto p-4 rounded-[100px]"
+                priority={true}
               />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">

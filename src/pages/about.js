@@ -5,12 +5,13 @@ import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/profile.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import Skills from "@/components/Skills";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
   const motionValue = useMotionValue(0);
   const spring = useSpring(motionValue, { duration: 3000 });
-  const inView = useInView(ref);
+  const inView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (inView) {
@@ -72,9 +73,26 @@ const about = () => {
                 src={profilePic}
                 alt="Foto Ade Farhan"
                 className="w-full h-auto rounded-2xl"
+                priority={true}
               />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between">
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={10} />
+                </span>
+                <h2 className="text-xl font-medium capitalize text-dark/75">
+                  months of experience
+                </h2>
+              </div>
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={5} />+
+                </span>
+                <h2 className="text-xl font-medium capitalize text-dark/75">
+                  projects completed
+                </h2>
+              </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={2} />
@@ -83,20 +101,9 @@ const about = () => {
                   programming language
                 </h2>
               </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-7xl font-bold">5+</span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
-                  projects completed
-                </h2>
-              </div>
-              <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-7xl font-bold">1</span>
-                <h2 className="text-xl font-medium capitalize text-dark/75">
-                  years of experience
-                </h2>
-              </div>
             </div>
           </div>
+          <Skills />
         </Layout>
       </main>
     </>

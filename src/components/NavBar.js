@@ -10,6 +10,7 @@ import {
   LinkedInIcon,
   PinterestIcon,
   TwitterIcon,
+  YoutubeIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 
@@ -82,9 +83,18 @@ const NavBar = () => {
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 ml-3"
+          className="w-6 mx-3"
         >
           <FacebookIcon />
+        </motion.a>
+        <motion.a
+          href="https://www.youtube.com/@adefarhanzikri"
+          target={"_blank"}
+          whileHover={{ y: -3 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 ml-3"
+        >
+          <YoutubeIcon />
         </motion.a>
       </nav>
 
