@@ -31,11 +31,9 @@ export default function Home() {
                 className="!text-6xl text-left"
               />
               <p className="my-4 text-base font-medium">
-                I am Fullstack Web Developer who started my career by joining
-                Hacktiv8 bootcamp. I’ve made several website and mobile app
-                projects. I have systematic and critical thinking, fast in
-                learning, have good leadership, ability to work independent or
-                as part of a team, highly organized, and efficient.
+                Unleashing the full potential of code, a Fullstack Web
+                Developer's passion is the driving force behind turning concepts
+                into tangible digital realities.
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link

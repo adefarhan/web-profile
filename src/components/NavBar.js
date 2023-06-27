@@ -43,7 +43,7 @@ const NavBar = () => {
 
       <nav className="flex items-center">
         <motion.a
-          href="https://twitter.com/defarhn"
+          href="https://www.twitter.com/defarhn"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
@@ -52,7 +52,7 @@ const NavBar = () => {
           <TwitterIcon />
         </motion.a>
         <motion.a
-          href="https://github.com/adefarhan"
+          href="https://www.github.com/adefarhan"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}

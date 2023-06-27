@@ -6,6 +6,7 @@ import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/profile.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -39,32 +40,38 @@ const about = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText text="Dedication fuels achievement" className="mb-16" />
+          <AnimatedText text="Relentless Dedication" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 Biography
               </h2>
               <p className="font-medium">
-                I am Fullstack Web Developer who started my career by joining
-                Hacktiv8 bootcamp. I’ve made several website and mobile app
-                projects. I have systematic and critical thinking, fast in
-                learning, have good leadership, ability to work independent or
-                as part of a team, highly organized, and efficient.
+                I embarked on my journey as a Fullstack Web Developer by
+                enrolling in the prestigious Hacktiv8 bootcamp. It was there
+                that I honed my skills and gained a solid foundation in web
+                development. With a string of successful website and mobile app
+                projects under my belt, I have proven my capabilities and
+                commitment to delivering top-notch solutions.
               </p>
               <p className="font-medium">
-                I am Fullstack Web Developer who started my career by joining
-                Hacktiv8 bootcamp. I’ve made several website and mobile app
-                projects. I have systematic and critical thinking, fast in
-                learning, have good leadership, ability to work independent or
-                as part of a team, highly organized, and efficient.
+                My approach to development is characterized by systematic and
+                critical thinking. I have a knack for breaking down complex
+                problems into manageable tasks, allowing me to tackle challenges
+                with precision and efficiency. Coupled with my fast learning
+                ability, I am constantly adapting to new technologies and
+                staying ahead of the curve in an ever-evolving industry.
               </p>
               <p className="font-medium">
-                I am Fullstack Web Developer who started my career by joining
-                Hacktiv8 bootcamp. I’ve made several website and mobile app
-                projects. I have systematic and critical thinking, fast in
-                learning, have good leadership, ability to work independent or
-                as part of a team, highly organized, and efficient.
+                One of my greatest strengths lies in my versatility as both a
+                leader and a team player. I possess strong leadership qualities
+                that enable me to guide and inspire a team towards achieving
+                shared goals. Simultaneously, I thrive in collaborative
+                environments and excel in working harmoniously with diverse
+                teams. I am highly organized, ensuring that projects are
+                well-structured and executed seamlessly, whether I am working
+                independently or as part of a team. My efficiency and attention
+                to detail guarantee timely and high-quality deliverables.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
@@ -79,7 +86,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between">
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={10} />
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75">
                   months of experience
@@ -104,6 +111,7 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Experience />
         </Layout>
       </main>
     </>
