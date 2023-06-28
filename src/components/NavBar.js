@@ -4,10 +4,13 @@ import Logo from "@/components/Logo";
 import { useRouter } from "next/router";
 import {
   DribbbleIcon,
+  FacebookIcon,
   GithubIcon,
+  InstagramIcon,
   LinkedInIcon,
   PinterestIcon,
   TwitterIcon,
+  YoutubeIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 
@@ -40,7 +43,7 @@ const NavBar = () => {
 
       <nav className="flex items-center">
         <motion.a
-          href="https://twitter.com/defarhn"
+          href="https://www.twitter.com/defarhn"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
@@ -49,7 +52,7 @@ const NavBar = () => {
           <TwitterIcon />
         </motion.a>
         <motion.a
-          href="https://github.com/adefarhan"
+          href="https://www.github.com/adefarhan"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
@@ -67,22 +70,31 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="https://twitter.com"
+          href="https://www.instagram.com/defarhn"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3"
         >
-          <PinterestIcon />
+          <InstagramIcon />
         </motion.a>
         <motion.a
-          href="https://twitter.com"
+          href="https://www.facebook.com/adhefarkhan"
+          target={"_blank"}
+          whileHover={{ y: -3 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <FacebookIcon />
+        </motion.a>
+        <motion.a
+          href="https://www.youtube.com/@adefarhanzikri"
           target={"_blank"}
           whileHover={{ y: -3 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 ml-3"
         >
-          <DribbbleIcon />
+          <YoutubeIcon />
         </motion.a>
       </nav>
 
