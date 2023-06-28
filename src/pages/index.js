@@ -32,7 +32,7 @@ export default function Home() {
               />
               <p className="my-4 text-base font-medium">
                 Unleashing the full potential of code, a Fullstack Web
-                Developer's passion is the driving force behind turning concepts
+                Developers passion is the driving force behind turning concepts
                 into tangible digital realities.
               </p>
               <div className="flex items-center self-start mt-2">

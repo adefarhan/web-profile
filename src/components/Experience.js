@@ -10,7 +10,11 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
     >
       <LiIcon reference={ref} />
-      <motion.div>
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;
           <a
@@ -54,7 +58,7 @@ const Experience = () => {
             companyLink="https://www.klikpayroll.com"
             time="Sep 2022 - Present"
             address="Kuningan Timur, Setiabudi, Jakarta Selatan."
-            work="My role encompasses the complete lifecycle of web application development. From designing and implementing responsive user interfaces using HTML, CSS, and JavaScript frameworks, to building robust server-side logic and APIs using languages like Java, Python, or JavaScript, I am responsible for creating seamless and efficient web experiences. I work closely with cross-functional teams to understand project requirements, conduct thorough testing and debugging, and ensure the delivery of high-quality, scalable web applications."
+            work="As a full-stack web developer, I handle the backend using Spring Boot Java and the frontend using Vue JavaScript. I optimize features within the application, work on the database, perform bug fixing, and ensure the delivery of user requirements. Additionally, I am responsible for modifying infrastructure using autoscaling and load balancers on AWS, as well as maintaining them. I also take charge of User Acceptance Testing and conduct server load tests using JMeter."
           />
           <Details
             position="Public Relations Intern"
@@ -65,12 +69,12 @@ const Experience = () => {
             work="Part of technical and public relations, as community participation. Invites the public to take part in the election through content distributed from social media, both in the form of writings in the form of pamphlets and videos that are invitational."
           />
           <Details
-            position="Fullstack Web Developer"
-            company="PT. Aplikasi Klikpayroll Indonesia"
-            companyLink="https://www.klikpayroll.com"
-            time="Sep 2022 - Present"
-            address="Kuningan Timur, Setiabudi, Jakarta Selatan."
-            work="My role encompasses the complete lifecycle of web application development. From designing and implementing responsive user interfaces using HTML, CSS, and JavaScript frameworks, to building robust server-side logic and APIs using languages like Java, Python, or JavaScript, I am responsible for creating seamless and efficient web experiences. I work closely with cross-functional teams to understand project requirements, conduct thorough testing and debugging, and ensure the delivery of high-quality, scalable web applications."
+            position="Journalism Intern"
+            company="Breakingnews"
+            companyLink="https://www.breakingnews.co.id/"
+            time="Aug 2018 - Sep 2018"
+            address="Kebayoran Baru, Jakarta Selatan."
+            work="I am an enthusiastic journalist covering political news, including presidential elections. My goal is to provide accurate and in-depth information to readers about ongoing political developments."
           />
         </ul>
       </div>
