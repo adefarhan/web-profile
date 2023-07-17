@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ade Farhan</title>
+        <meta name="home" content="My home page" />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
