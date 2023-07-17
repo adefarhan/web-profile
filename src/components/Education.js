@@ -55,7 +55,7 @@ const Education = () => {
             type="Bachelor of Political Science"
             time="Feb 2017 - Apr 2021"
             place="Banyumas, Purwokerto, Jawa Tengah"
-            info="understanding of political systems, government structures, international relations, and public policy. Students delve into diverse subjects such as political theory, comparative politics, international relations, public policy, political economy, research methods, political sociology, public administration, political communication, and electoral systems. Through this interdisciplinary approach, students gain the knowledge and skills necessary to analyze and navigate the complexities of politics and governance in local, national, and global contexts."
+            info="Understanding of political systems, government structures, international relations, and public policy. Students delve into diverse subjects such as political theory, comparative politics, international relations, public policy, political economy, research methods, political sociology, public administration, political communication, and electoral systems. Through this interdisciplinary approach, students gain the knowledge and skills necessary to analyze and navigate the complexities of politics and governance in local, national, and global contexts."
           />
         </ul>
       </div>
