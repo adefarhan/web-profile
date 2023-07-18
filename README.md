@@ -1,10 +1,12 @@
 Web Profile
 
-Youtube 1:30:50
+Nextjs13
+Tailwind
+Framer Motion
 
 Kendala
 
-1. whilehover di Logo.js tidak bisa menggunakan background color - solusi node tidak terbaru (DONE)
+1. featured Project di Projects page backgroundnya yg kiri masih kelebihan tinggal atur posisi (di edge PC di chrome tidak kelihatan)
 
 web yg perlu di bookmark:
 
