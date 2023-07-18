@@ -4,6 +4,8 @@ Nextjs13
 Tailwind
 Framer Motion
 
+4:42:42
+
 Kendala
 
 1. featured Project di Projects page backgroundnya yg kiri masih kelebihan tinggal atur posisi (di edge PC di chrome tidak kelihatan)
