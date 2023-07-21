@@ -67,7 +67,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8">
       {/* Grill */}
       <button
         className="flex-col justify-center items-center hidden lg:flex"
@@ -157,7 +157,7 @@ const NavBar = () => {
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
-            className={`ml-3 flex items-center justify-center rounded-full p-1 ${
+            className={`ml-5 flex items-center justify-center rounded-full p-1 ${
               mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
             }`}
           >
@@ -172,8 +172,13 @@ const NavBar = () => {
 
       {/* Navbar Mobile */}
       {isOpen ? (
-        <div className="min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32">
-          <nav className="flex item-center flex-col justify-center">
+        <motion.div
+          className="min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
+          initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <nav className="flex items-center flex-col justify-center">
             <CustomMobileLink
               href="/"
               title="Home"
@@ -200,13 +205,13 @@ const NavBar = () => {
             />
           </nav>
 
-          <nav className="flex items-center">
+          <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
               href="https://www.twitter.com/defarhn"
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mr-3"
+              className="w-6 mr-3 sm:mx-1"
             >
               <TwitterIcon />
             </motion.a>
@@ -215,7 +220,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark"
+              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
             >
               <GithubIcon />
             </motion.a>
@@ -224,7 +229,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3"
+              className="w-6 mx-3 sm:mx-1"
             >
               <LinkedInIcon />
             </motion.a>
@@ -233,7 +238,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3"
+              className="w-6 mx-3 sm:mx-1"
             >
               <InstagramIcon />
             </motion.a>
@@ -242,7 +247,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3"
+              className="w-6 mx-3 sm:mx-1"
             >
               <FacebookIcon />
             </motion.a>
@@ -251,14 +256,14 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 "
+              className="w-6 ml-3 sm:mx-1"
             >
               <YoutubeIcon />
             </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-3 flex items-center justify-center rounded-full p-1 ${
+              className={`ml-5 flex items-center justify-center rounded-full p-1 ${
                 mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
               }`}
             >
@@ -269,7 +274,7 @@ const NavBar = () => {
               )}
             </button>
           </nav>
-        </div>
+        </motion.div>
       ) : null}
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
