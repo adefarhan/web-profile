@@ -7,6 +7,7 @@ import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import RocketImage from "../../public/images/svgs/rocket.svg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
         <title>Ade Farhan</title>
         <meta name="home" content="My home page" />
       </Head>
+
+      {/* Transition Effect */}
+      <TransitionEffect />
+
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col ">
