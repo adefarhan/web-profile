@@ -5,9 +5,10 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
+import workoutTrackerProject from "../../public/images/projects/Vue 3 Supabase Tailwind.png";
+import comingSoonProject from "../../public/images/projects/Web is deploying ....png";
 
 const FramerImage = motion(Image);
 
@@ -131,41 +132,43 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Infinite Creativity!"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12 ">
               <FeaturedProject
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
+                img={workoutTrackerProject}
+                title="Workout Tracker"
+                summary="The Workout Tracker App is an all-in-one fitness tool for weightlifting and cardio enthusiasts, providing seamless tracking of workouts and performance to optimize their fitness journey."
+                link="https://workout-app.adefarhan.com"
+                type="VueJS Project"
+                github="https://github.com/adefarhan/workout-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
+                img={comingSoonProject}
+                title="AI Prompt Application"
+                summary="The Prompt AI app is a powerful and intuitive tool that generates creative and accurate content by leveraging the capabilities of artificial intelligence and natural language processing."
+                link="/projects"
+                type="NextJS Project"
+                github="/projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                link="/"
-                type="Featured Project"
-                github="/"
+                img={comingSoonProject}
+                title="Notion Clone"
+                summary="The Clone Notion app is a versatile and efficient productivity tool that replicates Notion's functionalities, allowing users to organize, collaborate, and manage their tasks seamlessly."
+                link="/projects"
+                type="NextJS Project"
+                github="/projects"
               />
             </div>
-            <div className="col-span-12">
+
+            {/* Projectnya kalo ada lebih dari 3 masukin kesini */}
+            {/* <div className="col-span-12">
               <FeaturedProject
                 img={project1}
                 title="Crypto Screener Application"
@@ -194,7 +197,7 @@ const projects = () => {
                 type="Featured Project"
                 github="/"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
