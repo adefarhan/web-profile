@@ -6,7 +6,8 @@ import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
-import comingSoonProject from "../../public/images/projects/Web is deploying ....png";
+import comingSoonProject from "../../../public/images/projects/Web is deploying ....png";
+import envGitArticle from "../../../public/images/articles/Remove .env from remote repository (1).png";
 
 const FramerImage = motion(Image);
 
@@ -28,12 +29,7 @@ const MovingImg = ({ title, img, link }) => {
   }
 
   return (
-    <Link
-      href={link}
-      target="_blank"
-      onMouseMove={handleMouse}
-      onMouseLeave={handleMouseLeave}
-    >
+    <Link href={link} onMouseMove={handleMouse} onMouseLeave={handleMouseLeave}>
       <h2 className="capitalize text-xl font-semibold hover:underline">
         {title}
       </h2>
@@ -72,7 +68,6 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light" />
       <Link
         href={link}
-        target="_blank"
         className="w-full inline-block cursor-pointer overflow-hidden rounded-lg "
       >
         <FramerImage
@@ -86,7 +81,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         />
       </Link>
 
-      <Link href={link} target="_blank">
+      <Link href={link}>
         <h2 className="capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg ">
           {title}
         </h2>
@@ -99,7 +94,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
   );
 };
 
-const articles = () => {
+const index = () => {
   return (
     <>
       <Head>
@@ -120,9 +115,9 @@ const articles = () => {
             <FeaturedArticle
               title="Remove .env From Github Repository (Clean Delete)"
               summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
-              time="- min read"
-              link="/articles"
-              img={comingSoonProject}
+              time="4 min read"
+              link="/articles/1"
+              img={envGitArticle}
             />
 
             <FeaturedArticle
@@ -168,4 +163,4 @@ const articles = () => {
   );
 };
 
-export default articles;
+export default index;
