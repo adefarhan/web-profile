@@ -72,6 +72,7 @@ const NavBar = () => {
       <button
         className="flex-col justify-center items-center hidden lg:flex"
         onClick={handleClick}
+        aria-label="toggle menu"
       >
         <span
           className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm  ${
@@ -106,6 +107,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
+            aria-label="twitter profile"
           >
             <TwitterIcon />
           </motion.a>
@@ -115,6 +117,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
+            aria-label="github profile"
           >
             <GithubIcon />
           </motion.a>
@@ -124,6 +127,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
+            aria-label="linkedin profile"
           >
             <LinkedInIcon />
           </motion.a>
@@ -133,6 +137,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
+            aria-label="instagram profile"
           >
             <InstagramIcon />
           </motion.a>
@@ -142,6 +147,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
+            aria-label="facebook profile"
           >
             <FacebookIcon />
           </motion.a>
@@ -151,6 +157,7 @@ const NavBar = () => {
             whileHover={{ y: -3 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 ml-3 "
+            aria-label="youtube profile"
           >
             <YoutubeIcon />
           </motion.a>
@@ -160,6 +167,7 @@ const NavBar = () => {
             className={`ml-5 flex items-center justify-center rounded-full p-1 ${
               mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
             }`}
+            aria-label="toggle-dark-mode"
           >
             {mode === "dark" ? (
               <SunIcon className={"fill-dark"} />
@@ -212,6 +220,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
+              aria-label="twitter profile"
             >
               <TwitterIcon />
             </motion.a>
@@ -221,6 +230,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+              aria-label="github profile"
             >
               <GithubIcon />
             </motion.a>
@@ -230,6 +240,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
+              aria-label="linkedin profile"
             >
               <LinkedInIcon />
             </motion.a>
@@ -239,6 +250,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
+              aria-label="instagram profile"
             >
               <InstagramIcon />
             </motion.a>
@@ -248,6 +260,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
+              aria-label="facebook profile"
             >
               <FacebookIcon />
             </motion.a>
@@ -257,6 +270,7 @@ const NavBar = () => {
               whileHover={{ y: -3 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 ml-3 sm:mx-1"
+              aria-label="youtube profile"
             >
               <YoutubeIcon />
             </motion.a>
@@ -266,6 +280,7 @@ const NavBar = () => {
               className={`ml-5 flex items-center justify-center rounded-full p-1 ${
                 mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
               }`}
+              aria-label="toggle-dark-mode"
             >
               {mode === "dark" ? (
                 <SunIcon className={"fill-dark"} />

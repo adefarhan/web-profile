@@ -123,11 +123,11 @@ const projects = () => {
     <>
       <Head>
         <title>Ade Farhan | Projects Page</title>
-        <meta name="projects" content="My projects" />
+        <meta name="Projects" content="Ade Farhan Projects" />
       </Head>
 
-      {/* Transition Effect */}
-      <TransitionEffect />
+      {/* Transition Effect #Membuat performance berkurang*/}
+      {/* <TransitionEffect /> */}
 
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">

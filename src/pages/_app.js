@@ -25,9 +25,10 @@ export default function App({ Component, pageProps }) {
         className={`${monsterrat.variable} bg-light dark:bg-dark w-full min-h-screen`}
       >
         <NavBar />
-        <AnimatePresence mode="wait">
-          <Component key={router.asPath} {...pageProps} />
-        </AnimatePresence>
+        {/* tidak pake transition agar performancenya cepat */}
+        {/* <AnimatePresence mode="wait"> */}
+        <Component key={router.asPath} {...pageProps} />
+        {/* </AnimatePresence> */}
         <Footer />
       </main>
     </>

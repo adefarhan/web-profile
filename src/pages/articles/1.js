@@ -38,13 +38,13 @@ const github = () => {
       <Head>
         <title>Ade Farhan | Articles Page</title>
         <meta
-          name="articles"
-          content="Remove .Env From Github Repository (Clean Delete)"
+          name="Article"
+          content="Remove .Env From Github Repository (Clean & Safe Delete)"
         />
       </Head>
 
-      {/* Transition Effect */}
-      <TransitionEffect />
+      {/* Transition Effect #Membuat performance berkurang*/}
+      {/* <TransitionEffect /> */}
 
       <main>
         <Layout className="pt-16 px-64">
