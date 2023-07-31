@@ -38,11 +38,11 @@ const about = () => {
     <>
       <Head>
         <title>Ade Farhan | About Page</title>
-        <meta name="description" content="About my self" />
+        <meta name="Description" content="About Ade Farhan" />
       </Head>
 
-      {/* Transition Effect */}
-      <TransitionEffect />
+      {/* Transition Effect #Membuat performance berkurang*/}
+      {/* <TransitionEffect /> */}
 
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">

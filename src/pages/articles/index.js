@@ -99,11 +99,11 @@ const index = () => {
     <>
       <Head>
         <title>Ade Farhan | Articles Page</title>
-        <meta name="articles" content="My articles" />
+        <meta name="Articles" content="Ade Farhan Articles" />
       </Head>
 
-      {/* Transition Effect */}
-      <TransitionEffect />
+      {/* Transition Effect #Membuat performance berkurang*/}
+      {/* <TransitionEffect /> */}
 
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
@@ -134,9 +134,9 @@ const index = () => {
           <ul>
             <Article
               title="Remove .env From Github Repository (Clean Delete)"
-              date="TBD"
+              date="27 July 2023"
               link="/articles"
-              img={comingSoonProject}
+              img={envGitArticle}
             />
             <Article
               title="Analyze and Indexing table in PostgreSQL (Easy Way)"

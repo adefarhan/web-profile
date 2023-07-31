@@ -14,11 +14,11 @@ export default function Home() {
     <>
       <Head>
         <title>Ade Farhan</title>
-        <meta name="home" content="My home page" />
+        <meta name="Home" content="Ade Farhan Home Page" />
       </Head>
 
-      {/* Transition Effect */}
-      <TransitionEffect />
+      {/* Transition Effect #Membuat performance berkurang*/}
+      {/* <TransitionEffect /> */}
 
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:p-16 sm:pt-8">
