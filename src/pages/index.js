@@ -14,7 +14,11 @@ export default function Home() {
     <>
       <Head>
         <title>Ade Farhan</title>
-        <meta name="Home" content="Ade Farhan Home Page" />
+        <meta name="home" content="Home Page" />
+        <meta
+          name="description"
+          content="Ade Farhan Home Page, Overall Information"
+        />
       </Head>
 
       {/* Transition Effect #Membuat performance berkurang*/}

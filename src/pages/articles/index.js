@@ -99,7 +99,11 @@ const index = () => {
     <>
       <Head>
         <title>Ade Farhan | Articles Page</title>
-        <meta name="Articles" content="Ade Farhan Articles" />
+        <meta name="articles" content="Articles Page" />
+        <meta
+          name="description"
+          content="Ade Farhan Articles Page, Articles Build by Ade Farhan "
+        />
       </Head>
 
       {/* Transition Effect #Membuat performance berkurang*/}

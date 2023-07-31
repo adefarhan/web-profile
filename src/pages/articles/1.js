@@ -36,9 +36,10 @@ const github = () => {
   return (
     <>
       <Head>
-        <title>Ade Farhan | Articles Page</title>
+        <title>Ade Farhan | Article Page</title>
+        <meta name="article" content="Article Page" />
         <meta
-          name="Article"
+          name="description"
           content="Remove .Env From Github Repository (Clean & Safe Delete)"
         />
       </Head>

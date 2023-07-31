@@ -123,7 +123,12 @@ const projects = () => {
     <>
       <Head>
         <title>Ade Farhan | Projects Page</title>
-        <meta name="Projects" content="Ade Farhan Projects" />
+        <meta name="projects" content="Projects Page" />
+        <meta
+          name="description"
+          content="Ade Farhan Projects Page, Projects Build by Ade Farhan "
+        />
+        <meta />
       </Head>
 
       {/* Transition Effect #Membuat performance berkurang*/}
