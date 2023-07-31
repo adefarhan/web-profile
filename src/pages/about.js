@@ -38,7 +38,11 @@ const about = () => {
     <>
       <Head>
         <title>Ade Farhan | About Page</title>
-        <meta name="Description" content="About Ade Farhan" />
+        <meta name="about" content="About Page" />
+        <meta
+          name="description"
+          content="Ade Farhan About Page, About Ade Farhan"
+        />
       </Head>
 
       {/* Transition Effect #Membuat performance berkurang*/}
