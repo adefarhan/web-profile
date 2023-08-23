@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import TransitionEffect from "@/components/TransitionEffect";
-import envGitArticle from "../../../public/images/articles/Remove .env from remote repository (1).png";
+import envGitArticle from "../../../public/images/articles/Remove .env from remote repository.png";
 
 const Paragraph = ({ description }) => {
   return (
@@ -32,15 +32,15 @@ const Code = ({ code }) => {
   );
 };
 
-const github = () => {
+const remove_env = () => {
   return (
     <>
       <Head>
-        <title>Ade Farhan | Article Page</title>
-        <meta name="article" content="Article Page" />
+        <title>Ade Farhan | Remove Env Article</title>
+        <meta name="article" content="Article Remove Env" />
         <meta
           name="description"
-          content="Remove .Env From Github Repository (Clean & Safe Delete)"
+          content="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
         />
       </Head>
 
@@ -56,8 +56,8 @@ const github = () => {
             />
             <Image
               src={envGitArticle}
-              alt="Articles 1"
-              className="w-full h-auto"
+              alt="Remove-Env"
+              className="w-full h-[700px]"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             />
@@ -148,4 +148,4 @@ const github = () => {
   );
 };
 
-export default github;
+export default remove_env;

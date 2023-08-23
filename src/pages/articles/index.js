@@ -7,7 +7,8 @@ import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import comingSoonProject from "../../../public/images/projects/Web is deploying ....png";
-import envGitArticle from "../../../public/images/articles/Remove .env from remote repository (1).png";
+import envGitArticle from "../../../public/images/articles/Remove .env from remote repository.png";
+import indexingDatabaseArticle from "../../../public/images/articles/The future is coming.png";
 
 const FramerImage = motion(Image);
 
@@ -41,6 +42,8 @@ const MovingImg = ({ title, img, link }) => {
         src={img}
         alt={title}
         className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
+        priority
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
       />
     </Link>
   );
@@ -110,7 +113,7 @@ const index = () => {
       {/* <TransitionEffect /> */}
 
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
-        <Layout className="pt-16">
+        <Layout className="pt-16 mb-48">
           <AnimatedText
             text="Code. Create. Innovate."
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
@@ -120,33 +123,33 @@ const index = () => {
               title="Remove .env From Github Repository (Clean Delete)"
               summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
               time="4 min read"
-              link="/articles/1"
+              link="/articles/remove-env"
               img={envGitArticle}
             />
 
             <FeaturedArticle
               title="Analyze and Indexing table in PostgreSQL (Easy Way)"
               summary="The article delves into the process of analyzing and indexing tables in PostgreSQL to optimize database performance effectively."
-              time="- min read"
-              link="/articles"
-              img={comingSoonProject}
+              time="5 min read"
+              link="/articles/indexing-database"
+              img={indexingDatabaseArticle}
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
             All Articles
           </h2>
-          <ul>
+          <ul className=" h-1/2">
             <Article
               title="Remove .env From Github Repository (Clean Delete)"
               date="27 July 2023"
-              link="/articles"
+              link="/articles/remove-env"
               img={envGitArticle}
             />
             <Article
               title="Analyze and Indexing table in PostgreSQL (Easy Way)"
               date="TBD"
-              link="/articles"
-              img={comingSoonProject}
+              link="/articles/indexing-database"
+              img={indexingDatabaseArticle}
             />
             <Article
               title="Experience of Using Hostinger Indonesia"
