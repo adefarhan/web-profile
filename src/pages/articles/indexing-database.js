@@ -3,7 +3,26 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import React from "react";
 import indexingDatabaseArticle from "../../../public/images/articles/The future is coming.png";
+import indexing1 from "../../../public/images/articles/indexing1.png";
+import indexing2 from "../../../public/images/articles/indexing2.png";
+
 import Image from "next/image";
+
+const Paragraph = ({ description }) => {
+  return (
+    <p className="text-xl pt-2 dark:text-light xl:text-lg sm:text-md">
+      {description}
+    </p>
+  );
+};
+
+const Title = ({ title }) => {
+  return (
+    <span className="text-3xl font-bold text-dark/75 dark:text-light/75 xl:text-2xl sm:text-xl">
+      {title}
+    </span>
+  );
+};
 
 const indexing_database = () => {
   return (
@@ -32,7 +51,32 @@ const indexing_database = () => {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             />
 
-            <div className="w-full mt-5"></div>
+            <div className="w-full mt-5">
+              <Title title="Introduction" />
+
+              <Paragraph description="When I was conducting performance testing on the application, I found that there were several queries that were very heavy and took a significant amount of time. Upon investigation using AWS RDS Performance Insights database, it was discovered that there were several resource-intensive queries. To perform further checks, each query can also be examined individually. Therefore, the solution employed was to implement indexing." />
+            </div>
+
+            <div className="w-full mt-5">
+              <Title title="Discussion" />
+
+              <Paragraph description="I have a table named 'Employee' with the following columns:" />
+              <Image
+                src={indexing1}
+                alt="Indexing-Database"
+                className="w-full h-full"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              />
+              <Paragraph description="The amount of data 11,01 million rows:" />
+              <Image
+                src={indexing2}
+                alt="Indexing-Database"
+                className="w-full h-full"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              />
+            </div>
           </article>
         </Layout>
       </main>
