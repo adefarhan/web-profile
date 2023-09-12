@@ -19,7 +19,7 @@ const ImageProject = ({ image, className = "" }) => {
       <Image
         src={image}
         alt="Indexing-Database"
-        className={`w-3/4 h-full ${className} `}
+        className={`w-3/4 h-full ${className} md:w-full`}
         priority
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
       />
@@ -139,9 +139,9 @@ const indexing_database = () => {
             </div>
 
             <div className="w-full mt-5">
-              <Title title="Closing" />
+              <Title title="Conclusion" />
 
-              <Paragraph description="Indexing the database is necessary to speed up queries; this must be done to ensure that the application runs smoothly." />
+              <Paragraph description="Indexing the database is necessary to speed up queries, this must be done to ensure that the application runs smoothly." />
             </div>
           </article>
         </Layout>

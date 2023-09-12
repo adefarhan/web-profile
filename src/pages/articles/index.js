@@ -122,7 +122,7 @@ const index = () => {
             <FeaturedArticle
               title="Remove .env From Github Repository (Clean Delete)"
               summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
-              time="4 min read"
+              time="5 min read"
               link="/articles/remove-env"
               img={envGitArticle}
             />
@@ -130,7 +130,7 @@ const index = () => {
             <FeaturedArticle
               title="Analyze and Indexing table in PostgreSQL (Easy Way)"
               summary="The article delves into the process of analyzing and indexing tables in PostgreSQL to optimize database performance effectively."
-              time="5 min read"
+              time="10 min read"
               link="/articles/indexing-database"
               img={indexingDatabaseArticle}
             />
@@ -147,7 +147,7 @@ const index = () => {
             />
             <Article
               title="Analyze and Indexing table in PostgreSQL (Easy Way)"
-              date="TBD"
+              date="12 Sept 2023"
               link="/articles/indexing-database"
               img={indexingDatabaseArticle}
             />
