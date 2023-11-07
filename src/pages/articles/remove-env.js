@@ -57,7 +57,7 @@ const remove_env = () => {
             <Image
               src={envGitArticle}
               alt="Remove-Env"
-              className="w-full h-[700px]"
+              className="w-full h-full"
               priority
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             />
