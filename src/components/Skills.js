@@ -38,6 +38,8 @@ const Skills = () => {
         <Skill name="AWS" x="0vw" y="-20vw" />
         <Skill name="Vercel" x="-25vw" y="18vw" />
         <Skill name="Tailwind CSS" x="18vw" y="18vw" />
+        <Skill name="Go" x="28vw" y="10vw" />
+        <Skill name="SQL" x="-20vw" y="10vw" />
       </div>
     </>
   );

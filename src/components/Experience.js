@@ -53,10 +53,18 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Fullstack Web Developer"
+            position="Fullstack Developer"
+            company="Sprint Asia"
+            companyLink="https://sprintasia.co.id/"
+            time="Nov 2023 - Present"
+            address="Fatmawati, Kebayoran Baru, Jakarta Selatan."
+            work="I work as a fullstack developer, where I specialize in utilizing Golang for the backend server-side development, and React JS for the frontend client-side development. In this role, I design, build, and maintain web applications that seamlessly integrate the power of Golang with the dynamic and interactive user interfaces created through React JS. My responsibilities encompass every aspect of the development process, from designing RESTful APIs and managing data storage to crafting visually appealing and user-friendly web interfaces. With a deep understanding of both Golang and React JS, I am capable of delivering high-performance, scalable, and secure web applications that meet the demands of today's digital landscape."
+          />
+          <Details
+            position="Fullstack Developer"
             company="Klikpayroll"
             companyLink="https://www.klikpayroll.com"
-            time="Sep 2022 - Present"
+            time="Sep 2022 - Oct 2023"
             address="Kuningan Timur, Setiabudi, Jakarta Selatan."
             work="As a full-stack web developer, I handle the backend using Spring Boot Java and the frontend using Vue JavaScript. I optimize features within the application, work on the database, perform bug fixing, and ensure the delivery of user requirements. Additionally, I am responsible for modifying infrastructure using autoscaling and load balancers on AWS, as well as maintaining them. I also take charge of User Acceptance Testing and conduct server load tests using JMeter."
           />
