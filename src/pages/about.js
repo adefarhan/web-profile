@@ -33,7 +33,7 @@ const AnimatedNumbers = ({ value }) => {
   return <span ref={ref}></span>;
 };
 
-const about = () => {
+const About = () => {
   const [monthsOfExperience, setMonthsOfExperience] = useState(0);
 
   useEffect(() => {
@@ -144,4 +144,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
