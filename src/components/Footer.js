@@ -15,7 +15,7 @@ const Footer = () => {
             </span>
             by&nbsp;
             <Link
-              href="https://www.adefarhan.xyz"
+              href="https://www.adefarhan.com"
               className="underline underline-offset-2"
               target={"_blank"}
             >
@@ -23,7 +23,7 @@ const Footer = () => {
             </Link>
           </div>
           <Link
-            href="https://www.adefarhan.xyz"
+            href="https://www.adefarhan.com"
             className="underline underline-offset-2"
             target={"_blank"}
           >
