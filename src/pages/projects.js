@@ -8,6 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 import knoxProject from "../../public/images/projects/Knox.png";
+import WeddingInvitationProject from "../../public/images/projects/Wedding Invitation.png";
 import workoutTrackerProject from "../../public/images/projects/Vue 3 Supabase Tailwind.png";
 import comingSoonProject from "../../public/images/projects/Web is deploying ....png";
 
@@ -62,7 +63,7 @@ const Project = ({ title, type, img, link, github }) => {
         <FramerImage
           src={img}
           alt={title}
-          className="w-full h-auto"
+          className="w-full max-h-[600px] "
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
           priority
@@ -118,12 +119,12 @@ const Projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={comingSoonProject}
-                title="AI Prompt Application"
-                summary="The Prompt AI app is a powerful and intuitive tool that generates creative and accurate content by leveraging the capabilities of artificial intelligence and natural language processing."
-                link="/projects"
+                img={WeddingInvitationProject}
+                title="Wedding Invitation"
+                summary="A beautiful and elegant wedding invitation website, theme magazine"
+                link="https://missaashari.adefarhan.com/undangan?name=Ade%20Farhan"
                 type="NextJS Project"
-                github="/projects"
+                github="https://github.com/adefarhan"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
