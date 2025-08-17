@@ -122,7 +122,7 @@ const Projects = () => {
                 img={WeddingInvitationProject}
                 title="Wedding Invitation"
                 summary="A beautiful and elegant wedding invitation website, theme magazine"
-                link="https://missaashari.adefarhan.com/undangan?name=Ade%20Farhan"
+                link="https://missaashari.adefarhan.com/undangan?token=eyJuYW1lIjoiQWRlIEZhcmhhbiAmIFBhcnRuZXIifQ.tnKjVk_twnRP5OBZW_wBiWoyFCw3xrNsWzuJb2f8tsM"
                 type="NextJS Project"
                 github="https://github.com/adefarhan"
               />
