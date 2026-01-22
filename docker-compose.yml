@@ -1,0 +1,15 @@
+services:
+  web-profile:
+    image: registry.adefarhan.my.id/web-profile:latest
+    container_name: web-profile
+    restart: unless-stopped
+
+    ports:
+      - "3000:3000"
+
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
