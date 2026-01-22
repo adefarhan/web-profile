@@ -14,3 +14,6 @@ web yg perlu di bookmark:
 saran:
 
 1. profile picture pake WPAP Generator
+
+docker build -t registry.adefarhan.my.id/web-profile:latest .
+docker push registry.adefarhan.my.id/web-profile:latest

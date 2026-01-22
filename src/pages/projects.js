@@ -111,7 +111,7 @@ const Projects = () => {
               <FeaturedProject
                 img={knoxProject}
                 title="Knoxtopup"
-                summary="A fast and efficient top-up website for Mobile Legends, built with Next.js and Go to ensure optimal performance."
+                summary="A fast and efficient top-up website for Mobile Legends and Voucher Steam Wallet, built with Next.js and Go to ensure optimal performance."
                 link="https://knoxtopup.com"
                 type="NextJS Project"
                 github="https://github.com/adefarhan"
@@ -122,7 +122,7 @@ const Projects = () => {
                 img={WeddingInvitationProject}
                 title="Wedding Invitation"
                 summary="A beautiful and elegant wedding invitation website, theme magazine"
-                link="https://missaashari.adefarhan.com/undangan?token=eyJuYW1lIjoiQWRlIEZhcmhhbiAmIFBhcnRuZXIifQ.tnKjVk_twnRP5OBZW_wBiWoyFCw3xrNsWzuJb2f8tsM"
+                link="https://wedding-app.adefarhan.com"
                 type="NextJS Project"
                 github="https://github.com/adefarhan"
               />
