@@ -9,6 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import comingSoonProject from "../../../public/images/projects/Web is deploying ....png";
 import envGitArticle from "../../../public/images/articles/Remove .env from remote repository.png";
 import indexingDatabaseArticle from "../../../public/images/articles/The future is coming.png";
+import miniPCArticle from "../../../public/images/articles/Home Server.png";
 
 const FramerImage = motion(Image);
 
@@ -120,6 +121,14 @@ const index = () => {
           />
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16 ">
             <FeaturedArticle
+              title="My experience turning a used mini PC into a home server"
+              summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
+              time="10 min read"
+              link="/articles/home-server"
+              img={miniPCArticle}
+            />
+
+            <FeaturedArticle
               title="Remove .env From Github Repository (Clean Delete)"
               summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
               time="5 min read"
@@ -139,6 +148,12 @@ const index = () => {
             All Articles
           </h2>
           <ul className=" h-1/2">
+            <Article
+              title="My experience turning a used mini PC into a home server"
+              date="02 Febr 2026"
+              link="/articles/home-server"
+              img={miniPCArticle}
+            />
             <Article
               title="Remove .env From Github Repository (Clean Delete)"
               date="27 July 2023"
