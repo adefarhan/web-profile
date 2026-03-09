@@ -122,7 +122,7 @@ const index = () => {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16 ">
             <FeaturedArticle
               title="My experience turning a used mini PC into a home server"
-              summary="The article highlights the proper and secure method of removing the .env file from GitHub to ensure a clean and complete deletion."
+              summary="This article shares my journey building a home server with a used mini PC using Debian, Docker, and Cloudflare Tunnel to run personal projects with better cost efficiency and full control."
               time="10 min read"
               link="/articles/home-server"
               img={miniPCArticle}
