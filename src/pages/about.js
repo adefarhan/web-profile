@@ -65,24 +65,24 @@ const About = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
               <p className="font-medium">
-                I embarked on my journey as a Fullstack Web Developer by enrolling in the prestigious Hacktiv8 bootcamp.
-                It was there that I honed my skills and gained a solid foundation in web development. With a string of
-                successful website and mobile app projects under my belt, I have proven my capabilities and commitment
-                to delivering top-notch solutions.
+                Software Architect with hands-on experience designing scalable, efficient, and maintainable systems in a
+                microservices environment. I bring proven expertise as a Full-Stack Developer with proficiency in Go,
+                Java, and JavaScript, now focused on end-to-end architecture, system design, and technology strategy.
               </p>
               <p className="font-medium my-3">
-                My approach to development is characterized by systematic and critical thinking. I have a knack for
-                breaking down complex problems into manageable tasks, allowing me to tackle challenges with precision
-                and efficiency. Coupled with my fast learning ability, I am constantly adapting to new technologies and
-                staying ahead of the curve in an ever-evolving industry.
+                I specialize in defining architectural decisions, leading system integration, and collaborating with
+                cross-functional teams to deliver high-performance and reliable solutions. My approach combines
+                systematic thinking with analytical rigor, allowing me to design complex systems that are both scalable
+                and maintainable. With expertise in microservices, Clean Architecture, and event-driven systems, I
+                continuously optimize performance using data-driven analysis and risk assessment.
               </p>
               <p className="font-medium">
-                One of my greatest strengths lies in my versatility as both a leader and a team player. I possess strong
-                leadership qualities that enable me to guide and inspire a team towards achieving shared goals.
-                Simultaneously, I thrive in collaborative environments and excel in working harmoniously with diverse
-                teams. I am highly organized, ensuring that projects are well-structured and executed seamlessly,
-                whether I am working independently or as part of a team. My efficiency and attention to detail guarantee
-                timely and high-quality deliverables.
+                Throughout my career, I have demonstrated strong leadership capabilities and excellent team
+                collaboration skills. I excel at aligning technical solutions with business goals, managing
+                stakeholders, and fostering innovation across engineering teams. My ability to break down complex
+                problems into manageable architectural components, combined with my commitment to delivering robust and
+                efficient solutions, has consistently resulted in successful project implementations and system
+                improvements.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
