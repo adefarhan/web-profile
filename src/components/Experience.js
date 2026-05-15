@@ -43,10 +43,18 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Backend Developer"
+            company="Omarco Edusav Produk"
+            companyLink="https://www.edusav.com/"
+            time="May 2026 - Present"
+            address="Mega Kuningan, Jakarta Selatan."
+            work="Design and develop scalable backend systems using Golang with microservices and event-driven architecture principles. Implement Clean Architecture patterns to ensure maintainability, testability, and separation of concerns across services. Build and maintain distributed systems integrated with Elasticsearch, Redis, PostgreSQL, and MinIO. Develop and integrate backend services with Spring Boot-based systems and external platforms. Optimize system performance, database queries, caching strategies, and search indexing for high-throughput applications."
+          />
+          <Details
             position="Software Architect"
             company="Sprint Asia"
             companyLink="https://sprintasia.co.id/"
-            time="Jan 2026 - Present"
+            time="Jan 2026 - Apr 2026"
             address="Fatmawati, Kebayoran Baru, Jakarta Selatan."
             work="Design scalable, efficient, and maintainable system architectures across multiple services. Define end-to-end architecture including requirements analysis, technology selection, and deployment strategies. Collaborate with engineering and product teams to align technical solutions with business goals. Lead system integration strategy across microservices and external services. Continuously optimize system performance using data-driven analysis and risk assessment."
           />
@@ -54,7 +62,7 @@ const Experience = () => {
             position="Fullstack Developer"
             company="Sprint Asia"
             companyLink="https://sprintasia.co.id/"
-            time="Nov 2023 - Jan 2026"
+            time="Nov 2023 - Dec 2025"
             address="Fatmawati, Kebayoran Baru, Jakarta Selatan."
             work="Developed backend services using Go with Clean Architecture and microservices approach. Implemented event-driven systems using RabbitMQ for asynchronous communication. Built and maintained frontend applications using ReactJS with microfrontend architecture. Containerized services using Docker and managed deployments with Nginx. Worked with MongoDB and MySQL, PostgreSQL for data persistence."
           />
@@ -62,7 +70,7 @@ const Experience = () => {
             position="Fullstack Developer"
             company="Klikpayroll"
             companyLink="https://www.klikpayroll.com"
-            time="Sep 2022 - Nov 2023"
+            time="Sep 2022 - Oct 2023"
             address="Kuningan Timur, Setiabudi, Jakarta Selatan."
             work="Built backend services using Spring Boot (Java). Developed frontend applications using Vue.js. Managed cloud infrastructure using AWS services."
           />
