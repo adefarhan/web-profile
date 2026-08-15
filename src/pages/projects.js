@@ -10,6 +10,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import knoxtopup from "../../public/images/projects/knoxtopup.png";
 import weddingApp from "../../public/images/projects/wedding-app.png";
 import serviceAC from "../../public/images/projects/service-ac.png";
+import randomChat from "../../public/images/projects/random-chat.png";
 import comingSoonProject from "../../public/images/projects/Web is deploying ....png";
 
 const FramerImage = motion(Image);
@@ -153,6 +154,16 @@ const Projects = () => {
                 summary="A fast and efficient top-up website for Mobile Legends and Voucher Steam Wallet, built with Next.js and Go to ensure optimal performance."
                 link="https://knoxtopup.com"
                 type="NextJS & Go Project"
+                github="https://github.com/adefarhan"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                img={randomChat}
+                title="Ngobrol"
+                summary="A random 1v1 chat platform for Indonesia with vibe-based matching, a 60-second icebreaker to start every conversation, and strike-based moderation. Real-time over WebSocket, powered by a Go backend with Redis matchmaking and a React frontend."
+                link="https://random-chat.adefarhan.com"
+                type="Go & React Project"
                 github="https://github.com/adefarhan"
               />
             </div>
