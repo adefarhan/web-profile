@@ -11,6 +11,7 @@ import knoxtopup from "../../public/images/projects/knoxtopup.png";
 import weddingApp from "../../public/images/projects/wedding-app.png";
 import serviceAC from "../../public/images/projects/service-ac.png";
 import randomChat from "../../public/images/projects/random-chat.png";
+import tradingSignal from "../../public/images/projects/trading-signal.png";
 import comingSoonProject from "../../public/images/projects/Web is deploying ....png";
 
 const FramerImage = motion(Image);
@@ -163,6 +164,16 @@ const Projects = () => {
                 title="Ngobrol"
                 summary="A random 1v1 chat platform for Indonesia with vibe-based matching, a 60-second icebreaker to start every conversation, and strike-based moderation. Real-time over WebSocket, powered by a Go backend with Redis matchmaking and a React frontend."
                 link="https://random-chat.adefarhan.com"
+                type="Go & React Project"
+                github="https://github.com/adefarhan"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                img={tradingSignal}
+                title="Trading Signal"
+                summary="A daily technical-signal dashboard for Indonesian (IDX) stocks: MA crossover, RSI, ADX and volume confirmation combined into one BUY/SELL/HOLD reading per stock, recomputed three times each trading day so a signal firming up or fading stays visible. Includes a paper-trading account with virtual capital and enforced cash rules. Go backend with a Redis price cache and a React frontend."
+                link="https://trading-signal.adefarhan.com"
                 type="Go & React Project"
                 github="https://github.com/adefarhan"
               />
