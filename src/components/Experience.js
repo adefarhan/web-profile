@@ -43,14 +43,6 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Backend Developer"
-            company="Omarco Edusav Produk"
-            companyLink="https://www.edusav.com/"
-            time="May 2026 - Present"
-            address="Mega Kuningan, Jakarta Selatan."
-            work="Design and develop scalable backend systems using Golang with microservices and event-driven architecture principles. Implement Clean Architecture patterns to ensure maintainability, testability, and separation of concerns across services. Build and maintain distributed systems integrated with Elasticsearch, Redis, PostgreSQL, and MinIO. Develop and integrate backend services with Spring Boot-based systems and external platforms. Optimize system performance, database queries, caching strategies, and search indexing for high-throughput applications."
-          />
-          <Details
             position="Software Architect"
             company="Sprint Asia"
             companyLink="https://sprintasia.co.id/"
